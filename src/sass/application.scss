@@ -47,3 +47,24 @@
 //
 
 @import "javascripts/sidebar-toggler";
+
+
+.icon:before,
+[class*="icon-"]:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  margin-right: 0.3em;
+  vertical-align: middle;
+  position: relative;
+  font-size: 1.2em;
+  top: -2px;
+}
+
+.issue-card {
+  background-color: #eee283 !important;
+  box-shadow: 0 10px 6px -8px #777 !important;
+  margin: 15px 5px !important;
+}
+
+table.list.issues-board {
+  background-color: rgba(255,255,255,.9);
+}

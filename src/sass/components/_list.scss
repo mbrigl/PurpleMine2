@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 table.list {
-  width: 100%;
+  width: calc(100% - 1px);
   margin-bottom: $line-height-computed;
   font-size: $font-size-list;
 

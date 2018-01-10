@@ -73,6 +73,10 @@
 
   h3 {
     margin-top: $line-height-computed * 1.5;
+    padding-bottom: 0.3em;
+    text-indent: 0.2em;
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: 400;
   }
 
   > h3:first-child,
@@ -98,14 +102,12 @@
 
     > a:not(.icon-only) {
       display: block;
-      padding: $sidebar-padding-vertical $sidebar-padding-horizontal;
+      padding: $sidebar-padding-vertical 0;
       border: 1px solid transparent;
 
       @if $sidebar-position == "left" {
-        border-left-width: 3px;
         border-radius: $border-radius-large 0 0 $border-radius-large;
       } @else {
-        border-right-width: 3px;
         border-radius: 0 $border-radius-large $border-radius-large 0;
       }
 

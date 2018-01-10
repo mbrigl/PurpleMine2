@@ -36,7 +36,8 @@ $gray-light:                    lighten($gray-base, 17%) !default;
 $gray-lighter:                  lighten($gray-base, 35%) !default;
 $gray-lightest:                 lighten($gray-base, 46%) !default;
 
-$brand-primary:                 #584492 !default;
+$brand-primary:                 #469BA5 !default;
+$brand-primary0:                 #c10076 !default;
 $brand-text:                    #fff !default;
 $brand-accent:                  #deddef !default;
 
@@ -115,7 +116,7 @@ $toc-active-border:             $link-color !default;
 //== Components
 //
 
-$padding-base-vertical:         6px !default;
+$padding-base-vertical:         0px !default;
 $padding-base-horizontal:       12px !default;
 $padding-large-vertical:        10px !default;
 $padding-large-horizontal:      16px !default;
